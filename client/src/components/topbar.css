@@ -1,0 +1,67 @@
+.top{
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    background-color:#f9f9f9;
+    top:0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+}
+
+.topLeft,.topRight{
+    flex:3; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+
+
+.topCenter{
+    flex: 6;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.letstalk{
+    font-weight: 600;
+    color: #2962ff;
+}
+
+.davidImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor : pointer;
+
+}
+
+.topMenuIcon{
+    font-size: 28px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}
