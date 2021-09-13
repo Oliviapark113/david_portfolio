@@ -15,6 +15,7 @@ export default function Topbar() {
               <li className="topListItem">ABOUT</li>
               <li className="topListItem">AWARDS</li>
               <li className="topListItem">WHY ME?</li>
+              <li className="topListItem">LOG OUT</li>
               <li className="topListItem letstalk">LET'S TALK</li>
           </ul>
 
