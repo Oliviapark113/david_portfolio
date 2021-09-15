@@ -1,0 +1,8 @@
+.awards{
+    height:calc(100vh - 70px);
+    background-color: lightgray;
+    width: 100%;
+    position: relative;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
+}

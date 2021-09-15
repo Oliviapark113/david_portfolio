@@ -2,7 +2,7 @@ import "./settings.css"
 
 export default function Settings() {
   return (
-    <div className="settings">
+    <div className="settings" id="settings">
       <div className="settingsWrapper">
           <div className="settingsTitle">
               <span className="settingsUpdateTitle">

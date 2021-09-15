@@ -1,7 +1,7 @@
-.top{
+.topfalse{
     width: 100%;
     height: 70px;
-    position: sticky;
+    position: fixed;
     background-color:#f9f9f9;
     top:0;
     display: flex;
@@ -65,3 +65,45 @@
     cursor: pointer;
     margin-left: 15px;
 }
+
+.hamburger{
+    width: 32px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor:pointer;
+    margin: 5px;
+}
+
+span{
+    width: 100%;
+    height: 3px;
+    background-color:#666;
+    transform-origin: left;
+    transition: all 2s ease;
+
+}
+
+.topactive {
+    display: flex;
+    align-items: center;
+    background-color:  #000a12;
+    color: #fff;
+    transition: all 2s ease;
+}
+
+.topactive>.hamburger> span :first-child{
+    background-color: white;
+    transform:rotate(45deg);
+    
+}
+
+.hamburgeractive > span:nth-child(2){
+  opacity:0;
+}
+
+.hamburgeractive > span:last-child{
+    background-color: white;
+    transform:rotate(-45deg);
+  }

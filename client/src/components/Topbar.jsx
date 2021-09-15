@@ -2,9 +2,9 @@ import React from 'react'
 import './topbar.css'
 // import {Link} from "react-router-dom"
 
-export default function Topbar() {
+export default function Topbar({menuOpen, setMenuOpen}) {
   return (
-    <div className="top">
+    <div className={"top" + (menuOpen && "active")}>
       <div className="topLeft">
           <img src="../../assets/Logo.png" alt="castlewood logo"className="logo"/>
           CASTLEWOOD ADVISORS
@@ -22,7 +22,12 @@ export default function Topbar() {
       </div>
       <div className="topRight">
       <img src="../../assets/david.jpg" alt="david"className="davidImg"/>
-      <i className="fas fa-bars topMenuIcon"></i>
+      {/* <i className="fas fa-bars topMenuIcon"></i> */}
+      <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
+        <span className="line1"></span>
+        <span className="line2"></span>
+        <span className="line3"></span>
+      </div>
       </div>
     </div>
   )

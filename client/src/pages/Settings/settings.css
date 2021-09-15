@@ -1,5 +1,10 @@
 .settings{
+    height:calc(100vh - 70px);
     display: flex;
+    width: 100%;
+    position: relative;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
 }
 
 .settingsWrapper {

@@ -1,14 +1,12 @@
 .home{
-
-    overflow: scroll;
     height:calc(100vh - 70px);
     background-color: #000a12;
     color:#fff;
     display: flex;
-    font-family: 'Josefin Sans', sans-serif;
-    scroll-behavior: smooth;
-        scroll-snap-type: y mandatory;
-        scrollbar-width: none;
+    width: 100%;
+    position: relative;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
 
 }
 
